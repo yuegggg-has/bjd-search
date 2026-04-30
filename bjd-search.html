@@ -185,7 +185,7 @@ function render(list) {
       ? '<span class="company-tag">' + r.company + '</span>'
       : '-';
     return '<tr>' +
-      '<td><a class="spu-link" href="kuril://pages-market/spu/index?id=' + r.spuId + '">' + r.name + '</a></td>' +
+      '<td><a class="spu-link" href="javascript:void(0)" onclick="window.location.href=\'kuril://pages-market/spu/index?id=' + r.spuId + '\'">' + r.name + '</a></td>' +
       '<td>' + saleTag + '</td>' +
       '<td>' + companyTag + '</td>' +
       '</tr>';
